@@ -17,27 +17,23 @@ export function ConfirmationSection() {
   return (
     <ConfirmationSectionContainer>
       <div>
-        <RegularText size="s">Total de itens</RegularText>
-        <RegularText size="s">R$ {formattedItemsTotal}</RegularText>
+        <RegularText size="s">Item Total</RegularText>
+        <RegularText size="s">Ksh {formattedItemsTotal}</RegularText>
       </div>
       <div>
-        <RegularText size="s">Entrega</RegularText>
-        <RegularText size="s">R$ {formattedDeliveryPrice}</RegularText>
+        <RegularText size="s">Delivery</RegularText>
+        <RegularText size="s">Ksh{formattedDeliveryPrice}</RegularText>
       </div>
       <div>
         <RegularText weight="700" color="subtitle" size="l">
           Total
         </RegularText>
         <RegularText weight="700" color="subtitle" size="l">
-          R$ {formattedCartTotal}
+          Ksh {formattedCartTotal}
         </RegularText>
       </div>
 
-      <Button
-        text="Confirmar pedido"
-        disabled={cartQuantity <= 0}
-        type="submit"
-      />
+      <Button text="Confirm order" disabled={cartQuantity <= 0} type="submit" />
     </ConfirmationSectionContainer>
   )
 }
