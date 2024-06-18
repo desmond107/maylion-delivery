@@ -20,11 +20,10 @@ export function Hero() {
         <div>
           <section>
             <HeroTitle size="xl">
-              Encontre o café perfeito para qualquer hora do dia
+              Discover your inner lion, with lion beer.
             </HeroTitle>
             <RegularText size="l" color="subtitle" as="h3">
-              Com o Coffe Delivery você recebe seu café onde estiver, a qualquer
-              hora
+              With Lion Delivery you can receive your lion beer wherever you are, anytime
             </RegularText>
           </section>
 
@@ -32,22 +31,22 @@ export function Hero() {
             <InfoWithIcon
               iconColor={colors['brand-yellow-dark']}
               icon={<ShoppingCart weight="fill" />}
-              text="Compra simples e segura"
+              text="Simple and secure purchase"
             />
             <InfoWithIcon
               iconColor={colors['base-text']}
               icon={<Package weight="fill" />}
-              text="Embalagem mantém o café intacto"
+              text="Packaging keeps the beer intact"
             />
             <InfoWithIcon
               iconColor={colors['brand-yellow']}
               icon={<Timer weight="fill" />}
-              text="Entrega rápida e rastreada"
+              text="Fast and tracked delivery"
             />
             <InfoWithIcon
               iconColor={colors['brand-purple']}
               icon={<Coffee weight="fill" />}
-              text="O café chega fresquinho até você"
+              text="The beer arrives at your door step"
             />
           </BenefitsContainer>
         </div>
