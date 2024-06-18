@@ -23,7 +23,7 @@ export function Hero() {
               Discover your inner lion, with lion beer.
             </HeroTitle>
             <RegularText size="l" color="subtitle" as="h3">
-              With Lion Delivery you can receive your lion beer wherever you are, anytime
+              With Lion Delivery you can receive your lion beer wherever you are, anytime.
             </RegularText>
           </section>
 
@@ -46,7 +46,7 @@ export function Hero() {
             <InfoWithIcon
               iconColor={colors['brand-purple']}
               icon={<Coffee weight="fill" />}
-              text="The beer arrives at your door step"
+              text="The beer arrives at your door"
             />
           </BenefitsContainer>
         </div>
