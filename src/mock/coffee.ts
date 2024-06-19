@@ -36,7 +36,7 @@ export const coffees = [
     tags: ['8.8%'],
     name: 'Lion stout',
     description: 'box Whole sale price 24pcs',
-    photo: 'leite.png',
+    photo: 'stout-box.png',
     price: 5600,
   },
   {
@@ -44,7 +44,7 @@ export const coffees = [
     tags: ['4.5%'],
     name: 'Lion Export',
     description: ' box Whole sale price 24pcs',
-    photo: 'latte.png',
+    photo: 'export-box.png',
     price: 5600,
   },
   {
@@ -52,7 +52,7 @@ export const coffees = [
     tags: ['12%'],
     name: 'Lion extra strong',
     description: 'box Whole sale price 24pcs',
-    photo: 'capuccino.png',
+    photo: 'strong-box.png',
     price: 5600,
   },
 ]
